@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*********************************************** header ***********************************************/
+/* .header-principal .main-principal .footer-principal{
+    display: flex;
+    flex-flow: wrap;
+} */
+
+.contacto{
+    display: flex;
+    flex-flow: wrap;
+    flex-flow: row ;
+    justify-content: space-around;
+    background-color: rgb(141, 6, 6);
+    color: white;
+}
+
+
+.navbar{
+    display: flex;
+    flex-flow: wrap;
+    flex-flow: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.navbar li a {
+    display: flex;
+    flex-flow: wrap;
+    flex-flow: row;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.logo {
+    width: 100px;    
+}
+
+/*********************************************** MAIN ***********************************************/
+.cb1000 {
+    width: 100%;
+}
+
+h1 {  
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.conteiner-cards{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+
+.card {
+    display: flex;
+    flex-flow: wrap;
+    text-align: center;
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+    
+}
+
+
+/*********************************************** FOOTER ***********************************************/
+
+.derechos{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        background-color: black;
+    }
+
+.derechos a{
+text-decoration: none;
+color: white;
+}
+/*********************************************** MEDIA 768px ***********************************************/
+/*********************************************** HEADER ***********************************************/
+@media (max-width: 768px){
+    .contacto{
+        display: flex;
+        flex-flow: wrap;
+        flex-flow: row ;
+        justify-content: space-around;
+        background-color: rgb(141, 6, 6);
+        color: white;
+        font-size: 10px;
+    
+    }
+    .navbar{
+        display: flex;
+        flex-flow: wrap;
+        flex-flow: row;
+        justify-content:space-between;
+        align-items: center;
+        background-color: black;
+        font-size: 10px;
+        
+    }
+    .navbar li a {
+        display: flex;
+        flex-flow: wrap;
+        flex-flow: row;
+        text-decoration: none;
+        list-style: none;
+        color: white;
+    }
+    
+    .logo {
+        width: 60px;
+    
+        
+    }
+    /*********************************************** MAIN ***********************************************/
+
+.cb1000 {
+    width: 100%;
+}
+
+
+h1 {
+    
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.conteiner-cards{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+
+.card {
+    display: flex;
+    flex-flow: wrap;
+    text-align: center;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+    
+    
+}
+
+
+/*********************************************** FOOTER ***********************************************/
+
+.derechos{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        background-color: black;
+        font-size: 10px;
+    }
+
+.derechos a{
+text-decoration: none;
+color: white;
+}
+    }
+/*********************************************** MEDIA 425 px ***********************************************/
+/*********************************************** HEADER ***********************************************/
+    @media (max-width: 425px){
+        .contacto{
+            display: none;
+            flex-flow: wrap;
+            flex-flow: row ;
+            justify-content: space-around;
+            background-color: rgb(141, 6, 6);
+            color: white;
+            
+        
+        }
+        .navbar{
+            display: flex;
+            flex-flow: wrap;
+            flex-flow: row;
+            justify-content:space-between;
+            align-items: center;
+            background-color: black;
+            font-size: 10px;
+            
+        }
+        .navbar li a {
+            display: flex;
+            flex-flow: wrap;
+            flex-flow: row;
+            text-decoration: none;
+            list-style: none;
+            color: white;
+        }
+        
+        .logo {
+            width: 40px;
+        
+            
+        }
+      /*********************************************** MAIN ***********************************************/
+    
+    .cb1000 {
+        width: 100%;
+    }
+    
+    
+    h1 {
+        display: none;
+    }
+    .conteiner-cards{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+    
+    
+    .card {
+        display: flex;
+        flex-flow: wrap;
+        text-align: center;
+        font-size: 20px;
+        flex-direction: column;
+        justify-content:center;
+        align-content: center;
+        
+        
+    }
+    
+    
+/*********************************************** FOOTER ***********************************************/
+    
+    .derechos{
+            display: flex;
+            flex-flow: wrap;
+            justify-content: center;
+            background-color: black;
+            font-size: 10px;
+        }
+    
+    .derechos a{
+    text-decoration: none;
+    color: white;
+    }
+        }
+/*********************************************** MEDIA 320 px ***********************************************/
+/*********************************************** HEADER ***********************************************/
+        @media (max-width: 320px){
+            .contacto{
+                display: none;
+                flex-flow: wrap;
+                flex-flow: row ;
+                justify-content: space-around;
+                background-color: rgb(141, 6, 6);
+                color: white;
+                
+            
+            }
+            .navbar{
+                display: flex;
+                flex-flow: wrap;
+                flex-flow: row;
+                justify-content:space-between;
+                align-items: center;
+                background-color: black;
+                font-size: 5px;
+                
+            }
+            .navbar li a {
+                display: flex;
+                flex-flow: wrap;
+                flex-flow: row;
+                text-decoration: none;
+                list-style: none;
+                color: white;
+            }
+            
+            .logo {
+                width: 22px;
+            
+                
+            }
+            /*********************************************** MAIN ***********************************************/
+        
+        .cb1000 {
+            width: 100%;
+        }
+        
+        
+        h1 {
+            display: none;
+        }
+        .conteiner-cards{
+            display: flex;
+            flex-flow:column wrap;
+            justify-content: center;
+        }
+        
+        
+        .card {
+            display: flex;
+            flex-flow: wrap;
+            text-align: center;
+            font-size: 5px;
+            flex-direction: column;
+            justify-content:center;
+            align-content: center;
+            
+            
+        }
+        
+        
+       /*********************************************** FOOTER ***********************************************/
+        
+        .derechos{
+                display: flex;
+                flex-flow: wrap;
+                justify-content: center;
+                background-color: black;
+                font-size: 10px;
+            }
+        
+        .derechos a{
+        text-decoration: none;
+        color: white;
+        }
+            }
+
+            .derechos a img{
+                width: 10px;
+                }
+                    
+        
+        
+/* DONDE ESTAMOS */
+.donde img, iframe{
+    width: 100%;
+}
+
+/* contacto */
+.contiene-grid{
+    
+    width: 100%;
+    display: grid;
+    grid-template:repeat(4,200px) / repeat(4,200px) ;
+    grid-template-areas: 
+    "item1 item1 item2 item2"
+    "item1 item1 item2 item2"
+    "item3 item3 item4 item4"
+    "item3 item3 item4 item4";
+    
+    
+    
+}
+
+.item-1 {
+    grid-area: item1;
+}
+
+.item-2 {
+    grid-area: item2;
+    background-color: blue;
+}
+
+.item-3 {
+    grid-area: item3;
+    background-color: green;
+}
+
+.item-4 {
+    grid-area: item4;
+    background-color: yellow;
+}
+
+.item-5 {
+    grid-area: item5;
+    background-color: violet;
+}
+
+.container-galeria{
+    display: grid;
+}
